@@ -1,0 +1,35 @@
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    top: 0;
+    background-color: black;
+}
+header{
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 40px;
+}
+div{
+    justify-content: space-around;
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+}
+section{
+    color: aliceblue;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box{
+    transition: transform 0.8s;
+}
+article{
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+}
+
+p{
+    color: rgb(173, 173, 173);
+    
+}
