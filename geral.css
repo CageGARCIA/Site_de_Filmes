@@ -13,14 +13,24 @@ header{
     margin-top: -300px;
     margin-right: -100px;
 }
-main{
+#nanan{
     text-align: center;
     color: aliceblue;
     text-align: right;
     margin: 0;
 }
-#heater{
-    background-color: rgb(41, 41, 41);
+#heater{ 
+    background-color:#692727;
     width: 100%;
+}
+
+footer{
+    position: absolute;
+    width: 1540px;
+    text-align: center;
+    margin-bottom: auto;
+    bottom: 0;
+    background-color: #692727;
+    color: black;
 }
 
