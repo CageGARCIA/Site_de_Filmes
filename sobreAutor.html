@@ -1,11 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="Imagens/sherk.jpeg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre o autor</title>
-    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="SobreAutor.css">
 </head>
-    <img id="sae" style="cursor: pointer;" src="Imagens/sae.png" alt="Rin">
+    <body>
+        <header>
+            <h1 style="background-color: pink;padding: 10px;border-radius: 30px;width: 200px;">Bem vindo!</h1>
+        </header>
 
+        <section>
+            <p style="color: gray;position: absolute;background-color: white;right: 100px;">No dia em que a minha familia foi na CTN(Centro de tradições Nordestinas) para comemorar meu aniversário. A na direita é a minha irmã mais velha, Kemilly.</p>
+            <article>
+                <p>
+                    Esse site foi desenvolvido por mim, Ana Caroline Garcia, aluna do instituto J&F. Quis deixar ele com a minha cara, adicionando as exigencias do professor. Usei HTML,CSS e um pouco de JavaScript :o
+                </p>
+                
+                <img id="img1" src="Imagens/PPT.jpg" alt="-">
+
+                
+            </article>
+                <img id="sae" style="width: 300px;position: absolute;top: 150px;cursor: pointer;" src="Imagens/sae.png" alt="">
+                <div id="legenda" style="display: none;">Esse é o Sae, meu personagem preferido de um anime chamado Blue lock</div>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>Curiosidades</h1>
+            <img id="nagi" style="position: absolute;width: 200px;bottom: 30px;right: 50px;cursor: pointer;" src="Imagens/_bluelock__nagi-removebg-preview.png" alt="">
+            <div style="display: none;" id="legenda1" >Quantas curiosidades...</div>
+
+            <ol type="I">
+                <li>Eu tenho um cachorro chamado Rabito</li>
+                <li>Minha familia faz aniversário em sequência, minha mãe em agosto, irmã em setembro, pai em outubro e eu em novembro</li>
+                <li>Tenho como hobbies desenhar, escutar música, assitir videos do youtube e ocasionalmente ler livros </li>
+                <li>Meu autor favorito é o Franz Kafka</li>
+                <li>Minha materia favorita BNCC é Filosofia e das Tech é Desenvolvimento</li>
+                <li>Odeio miojo ou comidas gordurosas</li>
+                <li>Adoro sushi, açai e sopa de frango(especificadamente sem legumes fora batata e cenoura)</li>
+                <li>Eu tenho uma cicatriz na coxa</li>
+                <li>Sou fluente em Inglês, entendo boa parte de Espanhol e estou aprendendo Russo</li>
+                <li>Já pintei meu cabelo de azul</li>
+            </ol>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>Lugares que já visitei</h1>
+            <ul>
+                    <li>Recife-PE</li>
+
+                    <article>
+                    <p>Fui visitar a familia e blah blah...</p>
+                    
+                        <nav>
+                         <a href="https://pt.wikipedia.org/wiki/Recife">Recife</a>
+                        </nav>
+
+                    </article>
+                    
+
+                    <li>Campos do jordão-SP</li>
+
+                    <article>
+                     <p>Uma das experiencias mais marcantes da minha vida.</p>
+
+                        <nav>
+                            <a href="https://pt.wikipedia.org/wiki/Campos_do_Jord%C3%A3o">Campos do jordão</a>
+                        </nav>
+                    </article>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>Lugares que quero conhecer</h1>
+            <ol>
+                <li>França</li>
+                <li>Russia</li>
+                <li>Japão</li>
+                <li>Canadá ou Estados Unidos</li>
+                <li>México</li>
+                <li>Maldivas</li>
+            </ol>
+        </section>
+
+        <footer>
+           <p>redes sociais</p>
+        </footer>
+
+    </body>
 </html>
+
+<script>
+    const Sae = document.getElementById("sae");
+    const Legenda = document.getElementById("legenda");
+
+    Sae.addEventListener("click", () => {
+        
+        Legenda.style.display = "block";
+        
+        setTimeout(() => {
+            Legenda.style.display = "none";
+        }, 5000); 
+    });
+
+    const Nagi = document.getElementById("nagi");
+    const Legenda1 = document.getElementById("legenda1");
+
+    Nagi.addEventListener("click", () => {
+        
+        Legenda1.style.display = "block";
+        
+        setTimeout(() => {
+            Legenda1.style.display = "none";
+        }, 5000); 
+    });
+
+    
+</script>
