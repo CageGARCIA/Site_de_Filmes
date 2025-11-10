@@ -12,6 +12,7 @@ article{
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
+    color: rgb(109, 49, 69);
 }
 
 p{
@@ -46,10 +47,9 @@ h1{
     width: 110px;
     border-radius: 30px;
     position: absolute;
-    border-color: grey;
     color: rgb(118, 41, 54);
     box-shadow: 0 4px 10px rgba(79, 27, 27, 0.3);
-    top: 50px;
+    top: 200px;
     left: 200px;
 }
 
@@ -59,8 +59,7 @@ h1{
     width: 110px;
     border-radius: 30px;
     position: absolute;
-    border-color: grey;
-    color: rgb(118, 41, 54);
+    color: rgb(55, 55, 55);
     box-shadow: 0 4px 10px rgba(79, 27, 27, 0.3);
     top: 450px;
     right: 100px;
@@ -68,12 +67,11 @@ h1{
 
 #legenda2{
     padding: 20px;
-    background-color: rgb(255, 255, 255);
-    width: 110px;
+    background-color: rgb(233, 255, 234);
+    width: 200px;
     border-radius: 30px;
     position: absolute;
-    border-color: grey;
-    color: rgb(118, 41, 54);
+    color: rgb(41, 102, 64);
     box-shadow: 0 4px 10px rgba(79, 27, 27, 0.3);
     top: 1000px;
     right: 100px;
