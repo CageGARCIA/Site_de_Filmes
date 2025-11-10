@@ -9,11 +9,11 @@
 </head>
     <body>
         <header>
-            <h1 style="background-color: pink;padding: 10px;border-radius: 30px;width: 200px;">Bem vindo!</h1>
+            <h1 style="background-color: pink;padding: 10px;border-radius: 30px;">Bem vindo!</h1>
         </header>
 
         <section>
-            <p style="color: gray;position: absolute;background-color: white;right: 100px;">No dia em que a minha familia foi na CTN(Centro de tradições Nordestinas) para comemorar meu aniversário. A na direita é a minha irmã mais velha, Kemilly.</p>
+            <p style="color: gray;position: absolute;background-color: white;right: 100px;width: 200px;">No dia em que a minha familia foi na CTN(Centro de tradições Nordestinas) para comemorar meu aniversário. A na direita é a minha irmã mais velha, Kemilly.</p>
             <article>
                 <p>
                     Esse site foi desenvolvido por mim, Ana Caroline Garcia, aluna do instituto J&F. Quis deixar ele com a minha cara, adicionando as exigencias do professor. Usei HTML,CSS e um pouco de JavaScript :o
@@ -21,7 +21,6 @@
                 
                 <img id="img1" src="Imagens/PPT.jpg" alt="-">
 
-                
             </article>
                 <img id="sae" style="width: 300px;position: absolute;top: 150px;cursor: pointer;" src="Imagens/sae.png" alt="">
                 <div id="legenda" style="display: none;">Esse é o Sae, meu personagem preferido de um anime chamado Blue lock</div>
@@ -55,28 +54,32 @@
         <section>
             <h1>Lugares que já visitei</h1>
             <ul>
-                    <li>Recife-PE</li>
+                    <article>
+                        <div class="section3A">
+                            <li>Recife-PE</li>
+                            <img src="Imagens/image.png" alt="">
+                        </div>
+                        <p>Fui visitar a minha familia para comemorar meu aniversário e ano novo com eles. Passei por Caruaru e Xique Xique..</p>
+                    </article>
+                    <a href="https://pt.wikipedia.org/wiki/Recife">Recife-Wikipedia</a>
+
+                    <div>
+                        <p style="background-color: white;">      </p>
+                    </div>
 
                     <article>
-                    <p>Fui visitar a familia e blah blah...</p>
-                    
-                        <nav>
-                         <a href="https://pt.wikipedia.org/wiki/Recife">Recife</a>
-                        </nav>
-
+                        <div class="section3A">
+                            <li>Campos do jordão-SP</li>
+                            <img src="Imagens/image copy.png" alt="">
+                        </div>
+                        <p>Uma das experiencias mais marcantes da minha vida. Fiquei um final de semana numa mansão com lareira e companhias incriveis, e claro, aproveitei o turismo local.</p>
                     </article>
-                    
+                        <a href="https://pt.wikipedia.org/wiki/Campos_do_Jord%C3%A3o">Campos do jordão</a>
 
-                    <li>Campos do jordão-SP</li>
-
-                    <article>
-                     <p>Uma das experiencias mais marcantes da minha vida.</p>
-
-                        <nav>
-                            <a href="https://pt.wikipedia.org/wiki/Campos_do_Jord%C3%A3o">Campos do jordão</a>
-                        </nav>
-                    </article>
+                    <img id="rinnie" style="cursor: pointer;width: 250px;position: absolute;right: 50px;bottom: -600px;" src="Imagens/rin_itoshi_look_up_blue_lock_merchandise-removebg-preview.png" alt="">
+                    <div style="display: none;" id="legenda2" >...Meu nome é Rin</div>
             </ul>
+            
         </section>
 
         <hr>
@@ -85,45 +88,32 @@
             <h1>Lugares que quero conhecer</h1>
             <ol>
                 <li>França</li>
-                <li>Russia</li>
                 <li>Japão</li>
                 <li>Canadá ou Estados Unidos</li>
+                <li>Rússia</li>
                 <li>México</li>
                 <li>Maldivas</li>
             </ol>
+
+           <div class="papaya">
+                <p>França porque quero muito conhecer London e fazer intercambio por lá. É uma cidade linda, a cultura é linda e é surreal de lindo</p>
+                <img src="Imagens/image copy 2.png" alt="">
+                <p class="especial">Japão por conta da minha paixão por comida japonesa, e conhecer uma cultura tão diferente parece interessante para repertório cultural.</p>
+                <img src="Imagens/image copy 3.png" alt="">
+
+                <p class="especial">Iphone barato e ganhar em dólar</p>
+                <img src="Imagens/image copy 4.png" alt="">
+            </div>
         </section>
 
         <footer>
-           <p>redes sociais</p>
+           <nav>
+            <a href="https://www.tiktok.com/@itzcarolines2">Tiktok</a>
+            <a href="https://github.com/CageGARCIA">Github</a>
+            </nav>
         </footer>
+        <script src="script.js"></script>
 
     </body>
 </html>
 
-<script>
-    const Sae = document.getElementById("sae");
-    const Legenda = document.getElementById("legenda");
-
-    Sae.addEventListener("click", () => {
-        
-        Legenda.style.display = "block";
-        
-        setTimeout(() => {
-            Legenda.style.display = "none";
-        }, 5000); 
-    });
-
-    const Nagi = document.getElementById("nagi");
-    const Legenda1 = document.getElementById("legenda1");
-
-    Nagi.addEventListener("click", () => {
-        
-        Legenda1.style.display = "block";
-        
-        setTimeout(() => {
-            Legenda1.style.display = "none";
-        }, 5000); 
-    });
-
-    
-</script>
