@@ -118,3 +118,9 @@ footer{
     padding: 10px;
     bottom: auto;
 }
+
+#waritsover{
+    display: flex;
+    align-items: center;
+    gap: 8px; /* espaço entre o ícone e o link */
+}
